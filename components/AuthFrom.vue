@@ -12,7 +12,7 @@
 
           <h5 class="mt-4">Войти в аккаунт</h5>
 
-          <form>
+          <form @submit.prevent="auth">
             <input
               :disabled="loading"
               v-model="login"
