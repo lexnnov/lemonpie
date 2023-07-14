@@ -28,9 +28,17 @@ body,
   height: 100%;
 }
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #ffce2a !important;
-    color: black;
-    border-color: #ffce2a;
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #ffce2a !important;
+  color: black;
+  border-color: #ffce2a;
+}
+
+.btn-primary.btn:disabled {
+  color: black;
+  border-color: #ffce2a;
 }
 </style>
